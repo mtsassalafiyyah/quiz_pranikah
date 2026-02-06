@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Edukasi Pernikahan PRO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-box">
+
+  <div class="game-header">
+    <h1>💍 Game Edukasi Pernikahan</h1>
+    <p>Versi PRO - Media Edukasi Pranikah</p>
+  </div>
+
+  <div class="question-box">
+    <div class="progress" id="progress">Soal 0 / 10</div>
+
+    <div class="question" id="question">
+      Pilih level untuk mulai
+    </div>
+
+    <div class="info-bar">
+      <div>⏱️ Waktu: <span id="time">0</span> dtk</div>
+      <div>🏆 Skor: <span id="score">0</span> / 100</div>
+    </div>
+
+    <div id="feedback" class="feedback"></div>
+
+    <div class="options" id="answers"></div>
+  </div>
+
+  <div class="level-buttons">
+    <button onclick="startGame('mudah')">Level Mudah</button>
+    <button onclick="startGame('sedang')">Level Sedang</button>
+    <button onclick="startGame('sulit')">Level Sulit</button>
+  </div>
+
+  <div class="footer">
+    Media Edukasi • Versi PRO • © 2026
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
